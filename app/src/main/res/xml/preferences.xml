@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Username"
+        android:summary="Enter your username"
+        android:key="KEY_USERNAME"/>
+
+    <SwitchPreference
+        android:title="Turn ON/OFF Data"
+        android:summary="Use to turn of your mobile data"
+        android:key="KEY_DATA"/>
+
+    <CheckBoxPreference
+        android:title="Checkbox"
+        android:summary="CheckBox Preference"
+        android:key="KEY_CHECKBOX"/>
+
+    <ListPreference
+        android:title="Ringtones"
+        android:summary="Select your ringtone"
+        android:key="KEY_RINGTONE"
+        android:entries="@array/ringtones"
+        android:entryValues="@array/ringtones"/>
+
+
+</PreferenceScreen>

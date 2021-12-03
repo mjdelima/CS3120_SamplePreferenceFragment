@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SamplePreferenceFragment</string>
+
+    <string-array name="ringtones">
+        <item>Ringtone 1</item>
+        <item>Ringtone 2</item>
+        <item>Ringtone 3</item>
+        <item>Ringtone 4</item>
+        <item>Ringtone 5</item>
+    </string-array>
+</resources>
